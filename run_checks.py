@@ -16,7 +16,6 @@ analyses = {
 }
 
 
-
 def get_suitable_analyses(file_name):
     return itertools.chain(*[functions for file_ending, functions in analyses.items()
                              if file_name.endswith(file_ending)])
