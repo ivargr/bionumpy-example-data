@@ -9,6 +9,7 @@ ignore = [".md", ".py"]
 
 
 analyses = {
+    "500kreads.fa.gz": [count_gs_in_fastq],
     "big.fq.gz": [scan_file, count_gs_in_fastq],
     "big.bed.gz": [scan_file],
     "big.vcf.gz": [scan_file]
