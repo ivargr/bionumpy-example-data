@@ -36,6 +36,7 @@ jobs:
       - name: Run checks/benchmarks
         run: |
           python run_checks.py
+          git config --global user.name "github action"
           git add -f results/*
           git add Readme.md
           git commit -am 'Test results'
