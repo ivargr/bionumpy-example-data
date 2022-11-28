@@ -38,7 +38,7 @@ jobs:
           python run_checks.py
           git add -f results/*
           git add Readme.md
-          git commit -am '
+          git commit -am 'Test results'
       
       - name: Push results
         uses: ad-m/github-push-action@master
